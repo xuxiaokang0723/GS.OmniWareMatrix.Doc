@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "WCS调试工具使用文档",
-  description: "WCS调度系统调试工具的详细使用指南",
+  description: "WCS调试工具的详细使用指南",
   
   // 重要：GitHub Pages部署配置
   // 如果部署到 https://username.github.io/repo-name/
@@ -44,27 +44,51 @@ export default defineConfig({
     // 侧边栏
     sidebar: [
       {
-        text: '简介',
+        text: '开始',
         items: [
-          { text: '开始使用', link: '/guide/' }
+          { text: '简介', link: '/guide/Introduction' },
+          { text: '下载与部署', link: '/guide/start' },
+          { text: '基础设置', link: '/guide/base-setting' },
         ]
       },
       {
-        text: '功能说明',
+        text: 'WCS 客户端',
         items: [
-          { text: 'WCS客户端', link: '/guide/#wcs客户端功能' },
-          { text: '本地工具', link: '/guide/#wcs本地工具' }
+          { text: 'WCS 首页', link: '/guide/wcs/wcs-home' },
+          { text: '监控页面', link: '/guide/wcs/monitor' },
+          { text: '设备中心', link: '/guide/wcs/device-center' },
+          { text: '任务中心', link: '/guide/wcs/task-center' },
+          { text: '数据导入', link: '/guide/wcs/data-import' },
+          { text: '历史回放', link: '/guide/wcs/history-playback' },
+          { text: '工具中心', link: '/guide/wcs/tool-center' }
         ]
       },
       {
-        text: '开发文档',
+        text: '数据监控',
         items: [
-          { text: '安装和使用', link: '/development/setup' },
-          { text: '部署指南', link: '/development/deployment' },
-          { text: '项目概览', link: '/development/project-overview' },
-          { text: '目录结构', link: '/development/structure' }
+          { text: 'S7 数据采集', link: '/guide/data-monitor/s7-datacollection' }
+        ]
+      },
+      {
+        text: '模拟仿真',
+        items: [
+          { text: '设备模拟器', link: '/guide/simulation/device-simulator' }
+        ]
+      },
+      {
+        text: 'FAQ',
+        items: [   
         ]
       }
+      // {
+      //   text: '开发文档',
+      //   items: [
+      //     { text: '安装和使用', link: '/development/setup' },
+      //     { text: '部署指南', link: '/development/deployment' },
+      //     { text: '项目概览', link: '/development/project-overview' },
+      //     { text: '目录结构', link: '/development/structure' }
+      //   ]
+      // }
     ],
 
     // 社交链接
@@ -74,8 +98,8 @@ export default defineConfig({
 
     // 页脚
     footer: {
-      message: 'WCS调度系统调试工具',
-      copyright: 'Copyright © 2026 GenSong'
+      message: 'WCS 调试工具',
+      copyright: 'Copyright © 2026'
     },
 
     // 本地搜索
