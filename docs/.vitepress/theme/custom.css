@@ -1,0 +1,81 @@
+/**
+ * 自定义样式
+ * 可以在这里覆盖VitePress默认主题的样式
+ */
+
+:root {
+  /* 品牌色 */
+  --vp-c-brand-1: #3b82f6;
+  --vp-c-brand-2: #2563eb;
+  --vp-c-brand-3: #1d4ed8;
+  
+  /* 自定义颜色 */
+  --vp-c-bg-soft: #f9fafb;
+}
+
+/* 暗色模式 */
+.dark {
+  --vp-c-bg-soft: #1f2937;
+}
+
+/* 首页英雄区域优化 */
+.VPHero .name {
+  background: linear-gradient(120deg, #3b82f6 30%, #8b5cf6);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* 图片样式优化 */
+.vp-doc img {
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin: 1.5rem 0;
+}
+
+/* 提示框样式优化 */
+.vp-doc .tip,
+.vp-doc .warning,
+.vp-doc .danger {
+  border-radius: 8px;
+  margin: 1.5rem 0;
+}
+
+/* 代码块样式优化 */
+.vp-doc div[class*='language-'] {
+  border-radius: 8px;
+  margin: 1.5rem 0;
+}
+
+/* 表格样式优化 */
+.vp-doc table {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* 链接样式 */
+.vp-doc a {
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+.vp-doc a:hover {
+  text-decoration: underline;
+}
+
+/* 标题锚点 */
+.vp-doc h1,
+.vp-doc h2,
+.vp-doc h3,
+.vp-doc h4,
+.vp-doc h5,
+.vp-doc h6 {
+  position: relative;
+}
+
+/* 响应式优化 */
+@media (max-width: 768px) {
+  .vp-doc img {
+    margin: 1rem 0;
+  }
+}
