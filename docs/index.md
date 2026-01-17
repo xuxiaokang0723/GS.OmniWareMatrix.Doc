@@ -5,9 +5,9 @@ hero:
   name: WCS调试工具
   text: 使用帮助文档
   tagline: 基于 V1.0.0-Beta.1 版本制作
-  image:
-    src: /hero-image.png
-    alt: WCS调试工具
+  # image:
+  #   src: /logo.png
+  #   alt: WCS调试工具
   actions:
     - theme: brand
       text: 开始使用
