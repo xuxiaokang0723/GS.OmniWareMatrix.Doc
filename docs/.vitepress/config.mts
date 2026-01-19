@@ -27,15 +27,6 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
       { text: '使用指南', link: '/guide/' },
-      // { 
-      //   text: '开发文档',
-      //   items: [
-      //     { text: '安装和使用', link: '/development/setup' },
-      //     { text: '部署指南', link: '/development/deployment' },
-      //     { text: '项目概览', link: '/development/project-overview' },
-      //     { text: '目录结构', link: '/development/structure' }
-      //   ]
-      // },
       { text: 'V1.0', link: '/V1.0' },
       { text: '更新日志', link: '/changelog' },
       { text: '关于', link: '/about' }
@@ -80,20 +71,13 @@ export default defineConfig({
         items: [   
         ]
       }
-      // {
-      //   text: '开发文档',
-      //   items: [
-      //     { text: '安装和使用', link: '/development/setup' },
-      //     { text: '部署指南', link: '/development/deployment' },
-      //     { text: '项目概览', link: '/development/project-overview' },
-      //     { text: '目录结构', link: '/development/structure' }
-      //   ]
-      // }
     ],
 
     // 社交链接
     socialLinks: [
-      // { icon: 'github', link: 'https://github.com/yourusername/yourrepo' }
+      // { icon: 'github', link: 'https://github.com/GenSong2025/GS.OmniWareMatrix' },
+      //Minio
+      { icon: 'minio', link: 'http://gen-song.vip:11433/' }
     ],
 
     // 页脚
