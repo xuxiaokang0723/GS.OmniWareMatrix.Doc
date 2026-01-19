@@ -16,7 +16,7 @@ docs/.vitepress/dist
 Thumbs.db
 
 # 编辑器目录
-development/*
+development-doc/
 .vscode/*
 !.vscode/extensions.json
 .idea
