@@ -13,9 +13,9 @@ hero:
       text: 开始使用
       link: /guide/
     - theme: alt
-      text: 在线文档
-      link: /guide/
-
+      text: 🎉 V1.0 版本更新说明 ✨
+      link: /V1.0
+    
 features:
   - icon: 🚀
     title: 快速部署

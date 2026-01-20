@@ -5,6 +5,9 @@ export default defineConfig({
   title: "WCS调试工具使用文档",
   description: "WCS调试工具的详细使用指南",
   
+  // 外观设置：默认暗色模式
+  appearance: 'dark',
+  
   // 重要：GitHub Pages部署配置
   // 如果部署到 https://username.github.io/repo-name/
   // 则需要设置 base 为 '/repo-name/'
