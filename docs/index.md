@@ -4,13 +4,13 @@ layout: home
 hero:
   name: WCS调试工具
   text: 使用帮助文档
-  tagline: 基于 V1.0.0-Beta.1 版本制作
+  tagline: 基于 V1.0.0-Beta.2 版本制作
   # image:
   #   src: /logo.png
   #   alt: WCS调试工具
   actions:
     - theme: brand
-      text: 开始使用
+      text: 📃 开始使用
       link: /guide/
     - theme: alt
       text: 🎉 V1.0 版本更新说明 ✨
