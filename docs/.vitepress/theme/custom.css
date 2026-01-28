@@ -117,3 +117,15 @@
 .VPHero .action .VPButton.alt:hover::before {
   left: 100%;
 }
+
+/* 首页第三个按钮（通知）自定义样式 - 橙色主题 */
+.VPHero .actions .action:nth-child(3) .VPButton {
+  background-color: #f59e0b !important;
+  border-color: #f59e0b !important;
+  color: white !important;
+}
+
+.VPHero .actions .action:nth-child(3) .VPButton:hover {
+  background-color: #d97706 !important;
+  border-color: #d97706 !important;
+}

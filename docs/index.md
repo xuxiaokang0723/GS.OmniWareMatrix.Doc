@@ -4,7 +4,7 @@ layout: home
 hero:
   name: WCS调试工具
   text: 使用帮助文档
-  tagline: 基于 V1.0.0-Beta.2 版本制作
+  tagline: 基于 V1.0.0-Beta 版本制作
   # image:
   #   src: /logo.png
   #   alt: WCS调试工具
@@ -15,6 +15,9 @@ hero:
     - theme: alt
       text: 🎉 V1.0 版本更新说明 ✨
       link: /V1.0
+    - theme: brand
+      text: 📢 最新通知
+      link: /Notice
     
 features:
   - icon: 🚀
