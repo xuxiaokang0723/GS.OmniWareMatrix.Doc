@@ -61,7 +61,8 @@ export default withMermaid(defineConfig({
       {
         text: '数据监控',
         items: [
-          { text: 'S7 数据采集', link: '/guide/data-monitor/s7-datacollection' }
+          { text: 'S7 数据采集', link: '/guide/data-monitor/s7-datacollection' },
+          { text: '输送线手动控制', link: '/guide/data-monitor/ConveyorManualControl' }
         ]
       },
       {
