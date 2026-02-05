@@ -1,6 +1,7 @@
 import { h } from 'vue'
 import DefaultTheme from 'vitepress/theme'
 import './custom.css'
+import GiteeVersion from './components/GiteeVersion.vue'
 
 export default {
   extends: DefaultTheme,
@@ -10,6 +11,6 @@ export default {
     })
   },
   enhanceApp({ app, router, siteData }) {
-    // ...
+    app.component('GiteeVersion', GiteeVersion)
   }
 }

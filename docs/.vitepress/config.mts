@@ -63,7 +63,7 @@ export default withMermaid(defineConfig({
         items: [
           { text: 'S7 数据采集', link: '/guide/data-monitor/s7-datacollection' },
           { text: '输送线手动控制部署', link: '/guide/data-monitor/ConveyorManualControl' },
-           { text: '输送线手动控制使用（用户版）', link: '/guide/data-monitor/ConveyorManualControl' }
+          { text: '输送线手动控制使用（用户版）', link: '/guide/data-monitor/ConveyorManualControl' }
         ]
       },
       {
@@ -83,7 +83,11 @@ export default withMermaid(defineConfig({
     socialLinks: [
       // { icon: 'github', link: 'https://github.com/GenSong2025/GS.OmniWareMatrix' },
       //Minio
-      { icon: 'minio', link: 'http://gen-song.vip:11433/' }
+      { icon: 'minio', link: 'http://gen-song.vip:11433/' },
+      //Gitee
+      { icon: 'gitee', link: 'https://gitee.com/xxk0723/GS.OmniWareMatrix/releases' },
+      //GitHub
+      { icon: 'github', link: '' },
     ],
 
     // 页脚
