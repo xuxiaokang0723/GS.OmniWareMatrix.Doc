@@ -55,7 +55,8 @@ export default withMermaid(defineConfig({
           { text: '任务中心', link: '/guide/wcs/task-center' },
           { text: '数据导入', link: '/guide/wcs/data-import' },
           { text: '历史回放', link: '/guide/wcs/history-playback' },
-          { text: '工具中心', link: '/guide/wcs/tool-center' }
+          { text: '工具中心', link: '/guide/wcs/tool-center' },
+          { text: '输送线手动控制（推荐）', link: '/guide/wcs/WCSConveyorManualControl' },
         ]
       },
       {
