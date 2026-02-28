@@ -10,14 +10,14 @@
 
 ## 用户操作界面介绍
 
-![操作主界面预览](/images/ConveyorManualControl/image-1.png)
+![操作主界面预览](/images/conveyor-manual-control/image-1.png)
 
 如上图所示，打开软件后，点击展开箭头，展开数据监控栏目，选择“S7 监控”菜单项，即可打开S7监控界面。
 之后，选择模板列表中的“输送线手动控制”模板，一般名称都是以“KZ”开头的，具体根据现场情况而定。
 
 ## 控制按钮介绍
 
-![控制按钮说明](/images/ConveyorManualControl/image-2.png)
+![控制按钮说明](/images/conveyor-manual-control/image-2.png)
 
 如上图所示，简单介绍了下3个控制按钮的写入原理，接下来通俗介绍一下：
 
@@ -32,10 +32,10 @@
 
 ### 第一步：启动
 - 我们按照上面介绍，已经打开了输送线的控制页面，首先我们点击右上角“启动”按钮，如果启动成功，该按钮会变成结束按钮，同时模板列表对应的输送线设备状态图标会变成绿色。
-![未启动前](/images/ConveyorManualControl/image-3.png)
+![未启动前](/images/conveyor-manual-control/image-3.png)
 <p style="text-align: center;color: #888;">未启动前</p>
 
-![启动成功后](/images/ConveyorManualControl/image-4.png)
+![启动成功后](/images/conveyor-manual-control/image-4.png)
 <p style="text-align: center;color: #888;">启动成功后</p>
 
 ### 第二步：输入要控制的输送线编号
@@ -44,12 +44,12 @@
 - 如果你需要同时控制两节输送线，那么你需要在“货位2编号”文本框里面输入对应的货位号，比如“1002”，之后按回车键，就可以看到监控值栏目就会显示出你输入的第二节输送线编号。
 - 记住，输入完一定要按回车键，直到监控值栏目显示出你输入的编号，否则接下来的操作也将无效。
 
-![输入货位号](/images/ConveyorManualControl/image-5.png)
+![输入货位号](/images/conveyor-manual-control/image-5.png)
 <p style="text-align: center;color: #888;">输入货位号</p>
 
 ### 第三步：切换手动模式
 - 我们输入完货位号后，接下我们看到下面有个“切换手动模式”项，点击它后面的对号按钮，就可以切换到手动模式，直到监控值栏目显示为绿色，才表示你已经切换到手动模式了。
-![切换手动模式](/images/ConveyorManualControl/image-6.png)
+![切换手动模式](/images/conveyor-manual-control/image-6.png)
 <p style="text-align: center;color: #888;">切换手动模式</p>
 
 ### 第四步：控制输送线运转

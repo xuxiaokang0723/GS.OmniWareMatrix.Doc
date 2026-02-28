@@ -10,11 +10,11 @@
 2. GS.OmniWareMatrix.Desktop + 版本号 + Update后缀；这个为更新包，后续升级时请使用这个包。
 3. windowsdesktop-runtime-8.0.23-win-x64.exe；这个为.NET 8.0运行时环境包，如果您的电脑没有安装.NET 8.0运行时，请先安装这个。
 
-![MinIO下载地址](/images/Start/image.png)
+![MinIO下载地址](/images/start/image.png)
 
 **2. 企业云平台下载地址**
 
-![企业云平台下载地址](/images/Start/image-1.png)
+![企业云平台下载地址](/images/start/image-1.png)
 
 ::: tip 注意
 1. 从这两个地方下载的包不一定是最新的，但是后续部署完，在有外网的情况下，可自动升级至最新版！！！
@@ -31,24 +31,24 @@
 
 **第一步：找到可执行文件**
 
-![找到可执行文件](/images/Start/image-2.png)
+![找到可执行文件](/images/start/image-2.png)
 
 **第二步：创建桌面快捷方式**
 
-![创建桌面快捷方式](/images/Start/image-3.png)
+![创建桌面快捷方式](/images/start/image-3.png)
 
 **第三步：双击桌面快捷方式图标，即可运行**
 
-![运行程序](/images/Start/image-4.png)
+![运行程序](/images/start/image-4.png)
 
 如果首次双击运行时，提示如下弹窗，说明您的电脑没有安装.NET 8.0运行时环境。您可以在上面介绍的MinIO下载地址处下载NET8.0运行时环境包，安装即可；也可以点击弹窗中的"Download it now"按钮，然后会自动打开浏览器，跳转到.NET 8.0运行时环境的下载页面。请根据提示下载并安装.NET 8.0运行时环境。安装完成后，再次双击运行软件即可。
-![缺少.NET 8.0运行时环境](/images/Start/image11.png)
+![缺少.NET 8.0运行时环境](/images/start/image11.png)
 
 ## 我该如何获取最新的版本？
 
 本软件支持在线更新。如果您的电脑已连接互联网，软件启动时会自动检测云端的最新版本。如果有新版本可更新，会自动弹窗询问是否更新。如下图所示：
 
-![自动更新提示](/images/Start/image-5.png)
+![自动更新提示](/images/start/image-5.png)
 
 ::: warning 警告
 强烈建议使用软件自带的升级功能，自己覆盖升级容易出差错，导致一些必要数据丢失！！！
@@ -72,7 +72,7 @@
 - **部署包**：用于在新电脑上进行全新部署
 - **更新包**：用于给现有电脑上的程序进行升级
 
-![打包功能](/images/Start/image-6.png)
+![打包功能](/images/start/image-6.png)
 
 如上图所示位置，这里首次给现场部署我们选择【部署包】，等待程序自动打包完成，将打包完成的压缩包放置新的电脑上，按照部署教程栏目的方式进行常规部署即可。
 

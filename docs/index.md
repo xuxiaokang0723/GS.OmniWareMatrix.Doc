@@ -14,10 +14,10 @@ hero:
       link: /guide/
     - theme: alt
       text: 🎉 V1.0 版本更新说明 ✨
-      link: /V1.0
+      link: /v1.0
     - theme: brand
       text: 📢 最新通知
-      link: /Notice
+      link: /notice
     
 features:
   - icon: 🚀

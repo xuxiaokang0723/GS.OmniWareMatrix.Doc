@@ -32,7 +32,7 @@ export default withMermaid(defineConfig({
       { text: '首页', link: '/' },
       { text: '使用指南', link: '/guide/' },
       { text: 'V1.0', link: '/V1.0' },
-      { text: '更新日志', link: '/changelog' },
+      { text: '更新日志', link: '/change-log' },
       { text: '关于', link: '/about' }
     ],
 
@@ -52,19 +52,23 @@ export default withMermaid(defineConfig({
           { text: 'WCS 首页', link: '/guide/wcs/wcs-home' },
           { text: '监控页面', link: '/guide/wcs/monitor' },
           { text: '设备中心', link: '/guide/wcs/device-center' },
-          { text: '任务中心', link: '/guide/wcs/task-center' },
+          { text: '任务中心', link: '/guide/wcs/task-center',
+            items: [
+              { text: '任务诊断', link: '/guide/wcs/task-center/task-diagnosis' }
+            ]
+           },
           { text: '数据导入', link: '/guide/wcs/data-import' },
           { text: '历史回放', link: '/guide/wcs/history-playback' },
           { text: '工具中心', link: '/guide/wcs/tool-center' },
-          { text: '输送线手动控制（推荐）', link: '/guide/wcs/WCSConveyorManualControl' },
+          { text: '输送线手动控制（推荐）', link: '/guide/wcs/wcs-conveyor-manual-control' },
         ]
       },
       {
         text: '数据监控',
         items: [
           { text: 'S7 数据采集', link: '/guide/data-monitor/s7-datacollection' },
-          { text: '输送线手动控制部署', link: '/guide/data-monitor/ConveyorManualControl' },
-          { text: '输送线手动控制使用（用户版）', link: '/guide/data-monitor/ConveyorManualControl' }
+          { text: '输送线手动控制部署', link: '/guide/data-monitor/conveyor-manual-control' },
+          { text: '输送线手动控制使用（用户版）', link: '/guide/data-monitor/conveyor-manual-control-user' }
         ]
       },
       {

@@ -6,13 +6,13 @@
 
 ## 手动控制界面预览
 
-![操作主界面预览](/images/WCS/ConveyorManualControl/1.png)
+![操作主界面预览](/images/wcs/conveyor-manual-control/1.png)
 <p style="text-align: center;color: #888;">手动控制界面预览</p>
 
 
 ## 控制按钮介绍
 
-![控制按钮说明](/images/ConveyorManualControl/image-2.png)
+![控制按钮说明](/images/conveyor-manual-control/image-2.png)
 
 如上图所示，简单介绍了下3个控制按钮的写入原理，接下来通俗介绍一下：
 
@@ -27,17 +27,17 @@
 ### 第一步：打开控制界面
 我们有两种方式都可打开对应的输送线货位控制操作界面：
 - 方式1：在地图监控页面右键对应的输送线货位图标，选择货位控制菜单，如下图：
-![方式1](/images/WCS/ConveyorManualControl/2.png)
+![方式1](/images/wcs/conveyor-manual-control/2.png)
 
 - 方式2：在设备中心界面打开对应输送线设备详情页面，在货位列表栏目，右键要控制的输送线货位，选择货位控制菜单，如下图：
-![方式2](/images/WCS/ConveyorManualControl/3.png)
+![方式2](/images/wcs/conveyor-manual-control/3.png)
 
 ### 第二步：启动
 - 我们按照上面介绍，已经打开了输送线的控制页面，首先我们点击右上角“启动”按钮，如果启动成功，该按钮会变成结束按钮标志；同时监控栏目中的货位编号会显示当前控制的货位并切换成手动模式。
-![未启动前](/images/WCS/ConveyorManualControl/4.png)
+![未启动前](/images/wcs/conveyor-manual-control/4.png)
 <p style="text-align: center;color: #888;">未启动前</p>
 
-![启动成功后](/images/WCS/ConveyorManualControl/5.png)
+![启动成功后](/images/wcs/conveyor-manual-control/5.png)
 <p style="text-align: center;color: #888;">启动成功后</p>
 
 
