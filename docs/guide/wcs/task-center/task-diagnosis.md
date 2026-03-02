@@ -19,6 +19,9 @@
 ![任务诊断界面](/images/wcs/task-center/5.png)
 <p style="text-align: center;color: #888;">场景2展示</p>
 
+![任务诊断界面](/images/wcs/task-center/6.png)
+<p style="text-align: center;color: #888;">场景3展示</p>
+
 ## 使用方式
 任务诊断功能可以通过两种方式打开，方法1需要额外确保打开了“设备中心”界面。
 
