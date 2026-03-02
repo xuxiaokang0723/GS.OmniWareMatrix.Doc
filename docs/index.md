@@ -4,7 +4,7 @@ layout: home
 hero:
   name: WCS 调试工具
   text: 使用帮助指南
-  tagline: 基于 V1.0-Beta 版本制作
+  tagline: 基于 V1.0-Beta 版本制作，持续更新中……
   image:
     src: /home.png
     alt: WCS调试工具
@@ -40,7 +40,7 @@ features:
     details: 支持部署包和更新包两种打包方式，适应不同的部署场景
 ---
 
-## 快速开始
+<!-- ## 快速开始
 
 ### 安装
 
@@ -84,4 +84,4 @@ features:
 ## 支持与反馈
 
 - 如遇功能无法使用，请先尝试将WCS服务端更新至最新版本。
-- 如遇软件bug，请及时反馈至开发者，我们会尽快修复。
+- 如遇软件bug，请及时反馈至开发者，我们会尽快修复。 -->
