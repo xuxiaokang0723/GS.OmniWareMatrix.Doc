@@ -74,6 +74,7 @@ export default withMermaid(defineConfig({
       {
         text: '模拟仿真',
         items: [
+          { text: '介绍', link: '/guide/simulation/Introduction' },
           { text: '设备模拟器', link: '/guide/simulation/device-simulator' }
         ]
       },
