@@ -22,5 +22,5 @@
 - 如果您已经手动升级到1.0.0-Beta.2版本，请忽略此通知。
 :::
 
-![MinIO下载地址](/images/start/image.png)
+![MinIO下载地址](/images/start/image-0.png)
 
