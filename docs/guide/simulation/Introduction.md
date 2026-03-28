@@ -1,7 +1,7 @@
 # 介绍
 
 ## 模拟器架构
-![架构图](/images/simulation/image.png)
+![架构图](/images/simulation/image-1.png)
 
 
 ## 什么是模拟器
