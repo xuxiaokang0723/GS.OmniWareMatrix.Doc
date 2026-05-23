@@ -23,6 +23,16 @@
 - 📝 **Markdown增强** - 支持自定义容器、代码高亮等
 - ⚡ **优化构建** - 生成高性能的静态网站
 
+## 📦 与客户端一起发布（内嵌离线文档）
+
+客户端会在 `127.0.0.1` 上托管本仓库 **生产构建** 的静态文件，用户无需安装 Node 或运行 `dev.bat`。
+
+1. 在本目录执行 `build.bat`（或 `npm run docs:build`），生成 `docs\.vitepress\dist`
+2. 构建/发布 `GS.OmniWareMatrix.Desktop` 时，MSBuild 会自动将 `dist` 复制到输出目录的 `www\doc\`
+3. 用户点击主界面「使用文档」按钮即可在浏览器中打开本地站点；若未打包文档则回退到 [在线文档](https://xuxiaokang0723.github.io/GS.OmniWareMatrix.Doc/)
+
+> 修改 `base` 时须同步更新客户端 `LocalDocSiteService.DefaultPathBase`。
+
 ## 🚀 快速开始
 
 ### 前置要求

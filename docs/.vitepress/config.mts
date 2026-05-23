@@ -13,7 +13,8 @@ export default withMermaid(defineConfig({
   // 如果部署到 https://username.github.io/repo-name/
   // 则需要设置 base 为 '/repo-name/'
   // 如果部署到自定义域名或 https://username.github.io/，则设置为 '/'
-  base: '/GS.OmniWareMatrix.Doc/',  // 请根据您的仓库名称修改
+  // GitHub Pages 与客户端内嵌本地服务的路径前缀须保持一致（见 LocalDocSiteService.DefaultPathBase）
+  base: '/GS.OmniWareMatrix.Doc/',
   
   // 语言设置
   lang: 'zh-CN',
